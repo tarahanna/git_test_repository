@@ -45,7 +45,14 @@ section {
   }
 
 .border-сontacts {
-  float: right;
+display: flex;
+justify-content:space-between;
+align-items:center;
+border:5px solid black;
+background-color: rgb(255, 228, 196);
+font-style: normal;
+padding: 30px;
+margin:20px;
 }
 
 .border-all-1 {
@@ -54,10 +61,13 @@ section {
     font-style: normal;
     padding: 30px;
     margin:20px;
-   }
+    display: flex;
+    flex-direction: row-reverse;
+  justify-content:space-between; 
+  align-items: center;  }
 
 .dnipro {
-float:right;
+float:left;
 margin:-28px;
 margin-right: 12px;
 }
