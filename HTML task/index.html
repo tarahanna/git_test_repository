@@ -5,17 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#226DAA" />
     <title>About myself</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <style>
-td, th, table {
-  border: black 1px solid;
-  }
-.dnipro {
-  border: black 3px solid;
-}
 </style>
+<link rel="stylesheet" href="../HTML task/style.css">
 </head>
-<body style="background-color:#F0CFC3"></body>
+<!--<body style="background-color:#F0CFC3">--->
     <nav class="navbar">
     <a href="#education">My Education</a>
         <a href="#courses">Courses</a>
@@ -25,37 +19,29 @@ td, th, table {
         <a href="#languages">Languages</a>
         <a href="#contact">My Contacts</a>
     </nav>
-    <br>
     <div><img class="dog" src="../HTML task/Images/237-3500x2095.jpg" alt="cute black labrador puppy" width="300" height="200" ></div>
     <div class="main">
         <h1>Anna Tarasyeva</h1>
-        <h2>QA Trainee</h2>
+        <h2 class="trainee">QA Trainee</h2>
     </div>
-<hr color="black" size="3">
 <div class="border-all">
-<h3 id="education">My Education</h3>
-    <ul>
-        <li><b>Horlivka Institute for Foreign Languages/ Specialist</b>
-            <br>Humanitarian Faculty/Translator (English, German)
-            <br><i>2009 - 2014</i></li>
-    </ul>
+    <section>
+        <h3 id="education">My Education</h3>
+            <span>
+                <b>Horlivka Institute for Foreign Languages/ Specialist</b>
+                <br>Humanitarian Faculty/Translator (English, German)
+                <br><i>2009 - 2014</i>
+            </span>
+    </section>
 </div>
-<hr color="black" size="3">
-
 <section class="border-all">
-    <h3 id="courses">Courses</h3>
-<ul class="courses-list">
-        <li><b>QA TestLab |<i>Dec 2023 - Jan 2024</i></b><br>
-            The Fundamentals of Software Testing
-        </li>
-        <br>
-        <li>
-            <b>Hillel IT School | <i>Mar 2024 - July 2024</i></b><br>
-                The QA Manual 
-        </li>
-    </ul>
-    <hr color="black" size="3">
-
+    <div><h3 id="courses">Courses</h3></div>
+    <div><p><b> <a href="https://training.qatestlab.com" target="_blank">QA TestLab </a>|<i> Dec 2023 - Jan 2024</i></b><br>
+        The Fundamentals of Software Testing
+    <br>
+</p>
+<p> <b><a href="https://ithillel.ua/" target="_blank">Hillel IT School</a> | <i>Mar 2024 - July 2024</i></b><br>
+    The QA Manual</p></div>
 </section>
 <div class="border-all">
     <h3 id="experience">Work Experience</h3>
@@ -79,7 +65,6 @@ td, th, table {
     <li>Maintain own level of technical skills and corporate knowledge through following corporate updates and self-development.</li>
     <li>Exemplify professional attitude towards the company, both in terms of job description conformity, loyalty, and respectful and assistance-focused attitude towards both external and internal clients.</li>
 </div>
-<hr color="black" size="3">
 <section class="border-all">
     <h3 id="hard">Hard Skills</h3>
     <ul>
@@ -89,8 +74,6 @@ td, th, table {
         <li>Confluence</li>
     </ul>
 </section>
-<hr color="black" size="3">
-
 <section class="border-all">
 <h3 id="soft">Soft Skills</h3>
     <ul>
@@ -103,8 +86,6 @@ td, th, table {
         <li>Patience</li>
     </ul>
 </section>
-<hr color="black" size="3">
-
        <section class="border-all">
         <h3 id="languages">Languages</h3>
         <ul>
@@ -112,25 +93,21 @@ td, th, table {
             <li><i>English</i> (Upper-Intermediate)</li>
           </ul> 
        </section>
-    <hr color="black" size="3">
-
 <div class="border-all-1">
-    <h3 class="ukraine">Location</h3>
-    <p class="ukraine">Ukraine, Dnipro</p>
-    <div class="border-all-2">
-        <a href="https://en.wikipedia.org/wiki/Dnipro" title="Click on the image to find out more"><img class="dnipro"  class="dnipro-2" width="250px" height="150px" src=".//Images/Dnipropetrovsk_view_2015_tov-tob.jpg" target=_blank alt="dnipro city"></a>
-    </div>
+        <div class="dnipro">
+            <a href="https://en.wikipedia.org/wiki/Dnipro" title="Click on the image to find out more"><img class="dnipro-2" width="250px" height="150px" src=".//Images/Dnipropetrovsk_view_2015_tov-tob.jpg" target=_blank alt="dnipro city"></a>
+        </div>
+        <p class="ukraine">Ukraine, Dnipro</p>
+    <h3>Location</h3>    
 </div>
 </div>
-<hr color="black" size="3">
-
-<section class="border-сontacts">
-    <h3 id="contact">My Contacts</h3>
-<div>
+<div class="border-сontacts">
+<h3 id="contact">My Contacts</h3>
+<div class="table">
     <table>
     <tr>
       <th>Telegram</th>
-      <td><a href="https://t.me/anna_tarasyeva" target="_blank">anna_tarasyeva</a> </td>
+      <td><a class="contact" href="https://t.me/anna_tarasyeva" target="_blank">anna_tarasyeva</a> </td>
     </tr>
     <tr>
       <th>Email</th>  
@@ -147,11 +124,11 @@ td, th, table {
     </tr>
   </table>
 </div>
-</section>
-<hr color="black" size="3">
+</div>
 <div class="border-all">
-<p class="contact"><i>To contact me, click</i> <button> <a href="../HTML task/pages/contact.html" class="contact"><i>here &#9829;</i></a> </button>
+    <p><i>To contact me, click</i> <a href="../HTML task/pages/contact.html" class="contact-2"><i>here &#9829;</i></a>
     </p>
+</p>
 </div>
 </body>
 </html>
